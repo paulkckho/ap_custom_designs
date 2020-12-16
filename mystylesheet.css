@@ -1,0 +1,136 @@
+/* Tech 1101 Term Project Style Sheet */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a:link {
+	color: green;
+}
+
+/* visited link */
+a:visited {
+	color: red;
+}
+
+/* mouse over link */
+a:hover {
+	color: yellow;
+}
+
+/* selected link */
+a:active {
+	color: green;
+}
+img {
+
+}
+
+body {
+	background: #00ffff;
+	
+}
+/* Style Header */ 
+.header {
+	background-color: #f1f1f1;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+p {
+	text-align: left;
+	text-transform: none;
+	
+}
+.Menu {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	
+}
+/* Creeate two boxes */
+.boxliner {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px; 
+}
+
+.boxliner1 {
+	width: 100%;
+	height: 600px;
+	padding: 10px;
+	border: 5px blue; 
+	box-sizing: border-box;
+	
+}
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.button {
+	display: inline-block;
+	margin: 50px;
+	padding: 20px;
+	font-size: 24px;
+	display: inline-block;
+		padding: 15px 25px;
+		font-size: 24px;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		outline: none;
+		color: #fff;
+		background-color: blue;
+		border: none;
+		border-radius: 15px;
+		box-shadow: 0 9px #999;
+	
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#Intro {
+	border-radius: 25px;
+	background: white;
+		border: 2px solid #73AD21;
+		padding: 20px; 
+		width: 500px;
+		height: 200px;  
+		font-size: 18px;
+}
+
+#Showcase {
+	border-radius: 25px;
+	background: white;
+		border: 2px solid #73AD21;
+		padding: 20px; 
+		width: 500px;
+		height: 200px;  
+		font-size: 18px;
+}
+
+
+
+footer {
+	text-align: center;
+	text-transform: uppercase;
+	
+}
